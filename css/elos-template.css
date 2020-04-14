@@ -1,0 +1,29 @@
+html, body * {
+  font-feature-settings: "litr" 0, "ss01" 1;
+}
+
+body { padding-top: 70px; }
+
+.card.elos {
+    background-color: #446e9b;
+    text-align:center;
+    padding: 33px 0;
+    border: 0;
+}
+
+.readmore {
+    text-align: right;
+}
+
+.centred {
+  text-align: center;
+}
+
+.kbdLayout {
+  width: 100%;
+  max-width: 720px;
+}
+
+.sample {
+  font-size: 2.0rem;
+}

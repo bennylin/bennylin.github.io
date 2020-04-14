@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'NS Adlam';
+  src: local('NS Adlam'), local('NSAdlam-Regular'),
+    url('/adlam/fonts/NSAdlam-Regular.woff2') format('woff2'),
+    url('/adlam/fonts/NSAdlam-Regular.woff') format('woff'),
+    url('/adlam/fonts/NSAdlam-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+@font-face {
+  font-family: 'NS Adlam Unjoined';
+  src: local('NS Adlam Unjoined'), local('NSAdlamUnjoined-Regular'),
+    url('/adlam/fonts/NSAdlamUnjoined-Regular.woff2') format('woff2'),
+    url('/adlam/fonts/NSAdlamUnjoined-Regular.woff') format('woff'),
+    url('/adlam/fonts/NSAdlamUnjoined-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+
+:lang(ff-Adlm) {
+  font-family: "NS Adlam";
+}
+
+
+.keymanweb-font, .kmw-key-text {
+  font-family: "NS Adlam" !important;
+}
+
+
+/* body .desktop .kmw-osk-inner-frame {
+  font-family: "NS Adlam" !important;
+} */
+
+
+
+@counter-style adlam {
+  system: numeric;
+  symbols: '\1E950' '\1E951' '\1E952' '\1E953' '\1E954' '\1E955' '\1E956' '\1E957' '\1E958' '\1E959';
+  suffix: " ";
+
+}
+
+ol:lang(ff-Adlm) {
+  list-style-type: adlam;
+}
