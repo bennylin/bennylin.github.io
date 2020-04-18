@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>EPrints System Error</title>
+</head>
+<body>
+<h1>EPrints System Error</h1>
+<p><code>Error in file retrieval: failed to get file contents</code></p>
+</body>
+</html>
