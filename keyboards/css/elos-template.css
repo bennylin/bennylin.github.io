@@ -24,6 +24,11 @@ body { padding-top: 70px; }
   max-width: 720px;
 }
 
+.kbdLayout2 {
+  width: 50%;
+  max-width: 240px;
+}
+
 .sample {
   font-size: 2.0rem;
 }
